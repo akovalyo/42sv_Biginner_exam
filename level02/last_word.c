@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   last_word.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/10 18:58:01 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 18:58:01 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/11 10:16:17 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/11 10:16:17 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include <unistd.h>
 
 int	ft_strlen(char *str)
 {
@@ -22,20 +22,30 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-char	*ft_strdup(char *src)
+void	last_word(char *str)
 {
-	char *new;
-	int i;
-	
-	i = 0;
-	new = (char *)malloc(sizeof(char) * (ft_strlen(src) + 1));
-	if (new == NULL)
-		return (0);
-	while (src[i])
+	int len;
+	int end;
+
+	len = ft_strlen(str) - 1;
+        while (str[len] == '\t' || str[len] == ' ')
+		len--;
+	end = len;
+	while(str[len] != '\t' && str[len] != ' ' && len >= 0)
+		len--;
+	len++;
+	while (len <= end)
 	{
-		new[i] = src[i];
-		i++;
+		write(1, &str[len], 1);
+		len++;
 	}
-	new[i] = '\0';
-	return (new);
+}
+
+
+int	main(int argc, char **argv)
+{
+	if (argc == 2)
+		last_word(argv[1]);
+	write(1, "\n", 1);
+	return (0);
 }

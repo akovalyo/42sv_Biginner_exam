@@ -1,32 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcspn.c                                       :+:      :+:    :+:   */
+/*   print_bits.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/10 16:30:07 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 16:30:07 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/11 18:41:48 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/11 18:41:48 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_reject(char c, const char *reject)
-{
-	while (*reject)
-	{
-		if (c == *reject)
-			return (1);
-		*reject++;
-	}
-	return (0);
-}
+#include <unistd.h>
 
-size_t	ft_strcspn(const char *s, const char *reject)
+void	print_bits(unsigned char octet)
 {
-	size_t i;
+	int i;
+	int bit;
 
 	i = 0;
-	while (s[i] && ft_reject(s[i], reject) == 0)
+	while (i < 8)
+	{
+		bit = (octet << i) & 0x80;
+		if (bit != 0)
+			write(1, "1", 1);
+		write(1, "0", 1);
 		i++;
-	return (i);
+	}
 }

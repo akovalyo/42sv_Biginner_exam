@@ -1,32 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcspn.c                                       :+:      :+:    :+:   */
+/*   is_power_of_2.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/10 16:30:07 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 16:30:07 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/11 09:30:12 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/11 09:30:12 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_reject(char c, const char *reject)
-{
-	while (*reject)
-	{
-		if (c == *reject)
-			return (1);
-		*reject++;
-	}
-	return (0);
-}
+#include <unistd.h>
 
-size_t	ft_strcspn(const char *s, const char *reject)
+int	is_power_of_2(unsigned int n)
 {
-	size_t i;
-
-	i = 0;
-	while (s[i] && ft_reject(s[i], reject) == 0)
-		i++;
-	return (i);
+	if (n % 2 == 0)
+		is_power_of_2(n / 2);
+	else if (n == 1)	
+		return (1);
+	else
+		return (0);
 }

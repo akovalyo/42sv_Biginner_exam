@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 int	ft_accept(char c, const char *accept)
 {
 	while (*accept)

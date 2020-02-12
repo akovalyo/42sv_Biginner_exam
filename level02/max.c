@@ -1,32 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcspn.c                                       :+:      :+:    :+:   */
+/*   max.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/10 16:30:07 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 16:30:07 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/11 10:40:06 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/11 10:40:06 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_reject(char c, const char *reject)
+int	max(int *tab, unsigned int len)
 {
-	while (*reject)
-	{
-		if (c == *reject)
-			return (1);
-		*reject++;
-	}
-	return (0);
-}
-
-size_t	ft_strcspn(const char *s, const char *reject)
-{
-	size_t i;
+	int max;
+	int i;
 
 	i = 0;
-	while (s[i] && ft_reject(s[i], reject) == 0)
+	if (len == 0)
+		return (0);
+	max = tab[0];
+	while (i < len)
+	{
+		if (tab[i] > max)
+			max = tab[i];
 		i++;
-	return (i);
+	}
+	return (max);
 }

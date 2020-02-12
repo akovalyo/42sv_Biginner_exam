@@ -1,32 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcspn.c                                       :+:      :+:    :+:   */
+/*   reverse_bits.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/10 16:30:07 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 16:30:07 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/11 16:53:02 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/11 16:53:02 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_reject(char c, const char *reject)
-{
-	while (*reject)
-	{
-		if (c == *reject)
-			return (1);
-		*reject++;
-	}
-	return (0);
-}
+#include <stdio.h>
 
-size_t	ft_strcspn(const char *s, const char *reject)
+unsigned char reverse_bits(unsigned char octet)
 {
-	size_t i;
+	int i;
+	unsigned char new;
 
 	i = 0;
-	while (s[i] && ft_reject(s[i], reject) == 0)
+	new = 0;
+	while (i < 7)
+	{
+		new |= (((octet >> i) & 1) << (7 - i));
 		i++;
-	return (i);
+	}
+	return (new);
 }
