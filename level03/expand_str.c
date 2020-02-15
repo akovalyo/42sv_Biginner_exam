@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   epur_str.c                                         :+:      :+:    :+:   */
+/*   expand_str.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/13 19:42:00 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/13 19:42:00 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/14 20:01:45 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/14 20:01:45 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_strlen(char *str)
+int    str_end(char *str)
 {
 	int i;
 
@@ -29,13 +29,13 @@ int	last_word(char *str, int end)
 	return (end);
 }
 
-void	epur(char *str)
+void    expand(char *str)
 {
-	int end;
 	int i;
+	int end;
 
-	end = last_word(str, ft_strlen(str));
 	i = 0;
+	end = last_word(str, str_end(str));
 	while (i <= end)
 	{
 		if (str[i] == ' ' || str[i] == '\t')
@@ -43,21 +43,21 @@ void	epur(char *str)
 		else
 		{
 			while (str[i] != ' ' && str[i] != '\t')
-          		{
+			{
 				write(1, &str[i], 1);
-                  		i++;
+				i++;
 				if (i > end)
-					return ;	
-			}	
-			write(1, " ", 1);
+					return ;
+			}
+			write(1, "   ", 3);
 		}
 	}
 }
 
-int	main(int argc, char **argv)
+int    main(int argc, char **argv)
 {
 	if (argc == 2)
-		epur(argv[1]);
+		expand(argv[1]);
 	write(1, "\n", 1);
 	return (0);
 }
