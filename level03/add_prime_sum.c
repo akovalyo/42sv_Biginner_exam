@@ -30,16 +30,16 @@ int	ft_atoi(char *str)
 	sign = 1;
 	nbr = 0;
 	while (*str == '\n' || *str == '\t' || *str == '\v' || *str == '\r' || *str == '\f' || *str == ' ')
-		*str++;
+		str++;
 	if (*str == '-')
 	{
 		sign = -1;
-		*str++;
+		str++;
 	}
 	while (*str >= '0' && *str <= '9')
 	{
 		nbr = nbr * 10 + (*str - '0');
-		*str++;
+		str++;
 	}
 	return (nbr * sign);
 }

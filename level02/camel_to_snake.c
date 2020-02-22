@@ -22,7 +22,7 @@ void	camel_to_snake(char *str)
 			*str = *str + 32;
 		}
 		write(1, str, 1);
-		*str++;
+		str++;
 	}
 }
 

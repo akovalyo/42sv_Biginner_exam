@@ -16,7 +16,7 @@ int	ft_accept(char c, const char *accept)
 	{
 		if (c == *accept)
 			return (1);
-		*accept++;
+		accept++;
 	}
 	return (0);
 }

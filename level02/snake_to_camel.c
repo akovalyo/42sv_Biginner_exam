@@ -20,11 +20,11 @@ int	main(int argc, char **argv)
 		{
 			if (*argv[1] == '_')
 			{
-				*argv[1]++;
+				argv[1]++;
 				*argv[1] = *argv[1] - 32;
 			}
 			write(1, argv[1], 1);
-			*argv[1]++;
+			argv[1]++;
 		}
 	}
 	write(1, "\n", 1);

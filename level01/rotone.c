@@ -28,7 +28,7 @@ int	main(int argc, char **argv)
 		while (*argv[1])
 		{
 			rotone(argv[1]);
-			*argv[1]++;
+			argv[1]++;
 		}
 	}
 	write(1, "\n", 1);

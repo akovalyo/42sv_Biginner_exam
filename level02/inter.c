@@ -18,7 +18,7 @@ int	check_char(char c, char *str)
 	{
 		if (c == *str)
 			return (1);
-		*str++;
+		str++;
 	}
 	return (0);
 }

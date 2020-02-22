@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/09 17:30:32 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/09 17:30:32 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/02/21 20:44:01 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ void	ft_putstr(char *str)
 	while (*str)
 	{	
 		write(1, str, 1);
-		*str++;
+		str++;
 	}
 }
-

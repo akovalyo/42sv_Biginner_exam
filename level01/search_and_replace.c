@@ -24,7 +24,7 @@ int	main(int argc, char **argv)
 					write(1, argv[3], 1);
 				else
 					write(1, argv[1], 1);
-				*argv[1]++;
+				argv[1]++;
 			}
 		}
 	}

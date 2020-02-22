@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 19:50:32 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/08 19:50:32 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/02/21 17:38:48 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	aff_a(char *argv)
 	{
 		if (*argv == 'a')	
 			return (1);
-		*argv++;
+		argv++;
 	}
 	return (0);
 }

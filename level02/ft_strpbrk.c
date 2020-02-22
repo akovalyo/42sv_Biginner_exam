@@ -16,7 +16,7 @@ int	first(const char *c, const char *s2)
 	{
 		if (*c == *s2)
 		       return (1);
-		*s2++;
+		s2++;
 	}
 	return (0);
 }	
@@ -27,7 +27,7 @@ char	*ft_strpbrk(const char *s1, const char *s2)
 	{
 		if (first(s1, s2) == 1)
 			return ((char *)s1);
-		*s1++;
+		s1++;
 	}
 	return (NULL);
 }

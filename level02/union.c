@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 13:49:29 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/11 13:49:29 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/02/21 20:49:23 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	check_char(char c, char *str)
 	{
 		if (c == *str)
 			return (1);
-		*str++;
+		str++;
 	}
 	return (0);
 }

@@ -23,7 +23,7 @@ int	wdmatch(char *s1, char *s2)
 			return (0);
 		else if (*s2 == s1[i])
 			i++;
-		*s2++;
+		s2++;
 	}
 	write(1, s1, i);
 	return (0);

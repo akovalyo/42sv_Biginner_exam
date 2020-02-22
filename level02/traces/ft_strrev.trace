@@ -1,0 +1,51 @@
+= ft_strrev ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strrev.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./8d27dzvap23om56trl8kp434 ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./3i40bceyidd9oyt2xlt6basz "UF3dRs9EYL7yAHXh"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./197exfpiyb77qhy6j10bi46n "oyPlIOJSQLdhg6Xj"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./hk3e2ibnfhczy35q61pqigya "kOVA3T"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./lgr0xqt8yhrbcgbz3ov60kh9 "SjR3eXCvpQn"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./c1ptxs2mqyi4okyi7dy351oh "s479 cGxhCu7oMOXnUgE s1yaE8LTZN PlFhqIuVBJno C29GEu3Uadsx wiBhWl1f diTmLyC0We lgi6n5yjZL1k"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./nte7awvz5807odfbjvip2imb "bkFvs9nLS6YZOQVEz hVu2OL IKfR1zJaySDL 796 xZ0yn8tzaiCcJW"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./gwo1efi1zx2xkxq664jefb9o "evQ9EHayRtj5lpu3 R29cub8h4eqxEGw YqC3BbASnI8yL4E 3vaxhwU5OXqrMHi B3aFZTOLg0RMh 4luGz1P2BYN3O7kf L0eKb9xFTvpqEU8 jlB ACKRgMuvbNLYoB AH2 cA6J 0n8dTh9xuS HTDLQJdxgZkap OJvkpl8chXR 0kHxXVrMY yPz0OHkDnu 9Bkq1Ti2OWRAK"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./juc9nzc592l2nhwncoqpakpw "fGczPghJRSFTa oWqExal1M9 rbDuSBq2VU ZlDp5HXqebQ0 ibYEhDtB s1WCYztd0amR5p2b 5zSZa71 cB16 FOraI 7NzROQb5G8X64 UH8 kUstLMbq7g9GZcCyD"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

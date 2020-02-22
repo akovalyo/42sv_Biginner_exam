@@ -16,7 +16,7 @@ int	ft_reject(char c, const char *reject)
 	{
 		if (c == *reject)
 			return (1);
-		*reject++;
+		reject++;
 	}
 	return (0);
 }

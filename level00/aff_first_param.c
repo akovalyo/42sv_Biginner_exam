@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 20:20:56 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/08 20:20:56 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/02/21 17:35:41 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(int argc, char **argv)
 		while (*argv[1])
 		{
 			write(1, argv[1], 1);
-			*argv[1]++;
+			argv[1]++;
 		}
 	}
 	write(1, "\n", 1);

@@ -1,0 +1,46 @@
+= ft_putstr ====================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putstr.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./wc2cc0t9c1yddbuvudrz3pcm "57fqV4w"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./qro9eudg0conzkzpgcrrupil "L0Mm3KeA5jS8h"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./x0krm8jgkgmeuymvb3kpjyz5 "8w6nDQ"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./kc83yifpkl0asiimezkb39lt "rjAyvceY QZKEUvu fZUE6lVjMeqd0XGO Su1Xk4xe2JYW5hVO 7VmfR6OrBGt2qwCgS Xr3n y5J6F aBTxwtJce5O6 Kad2pI3f4DAkRZT0 yGLdnXHoe SdfYmkKPwusH SXqIfjwa4Y2RtQNFD mQTyskHqjOw W3nHydfRoAUke Fdih437UQxmuCq"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ckvm2qmiingu0ot32jp9lsvf "rOWfIqwB8 7C9p cb94j7TnBKIgNtP0 icWUYL94 iqG"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./ehws9m2fas854q3h804pa8it "TbOkZnSt HyvQ9XgBDSp3Ycj gjDsPzmi8F eRx1XG2jufs a8MWHLKjl7S4XDIU Yyk6HK u2TBp Ti5zrkI1h Su3V8HZ0jlgxf m3eR8hlpMsNunQ2Fv"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./utn4pk0no6v9k5f9qjrcg6fx "0tBiM2W5elj9 x0b Ljy13H6EVa9vw sCT9NgtAfv u8o0l ln9KN6j Qx5tDrNkTXjo02 NVaDGTx7O Z8zOjW DmbnCpotSu36L uayVDAKPljXBqs6Yo gR2ds4QG1WcDZ"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./17aw0n712re69p3599vg32rp 
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

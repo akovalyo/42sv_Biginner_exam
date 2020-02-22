@@ -39,7 +39,7 @@ int	main(int argc, char **argv)
 		while(*argv[1])
 		{
 			mirror(argv[1]);
-			*argv[1]++;
+			argv[1]++;
 		}
 				
 	}
