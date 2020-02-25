@@ -6,11 +6,10 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/23 17:31:36 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/23 19:04:57 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/02/24 20:14:12 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
-#include <stdio.h>
 
 void	ft_putnbr(int nbr)
 {
