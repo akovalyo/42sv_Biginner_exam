@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   str_capitalizer.c                                  :+:      :+:    :+:   */
+/*   rstr_capitalizer.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
+/*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/24 08:30:42 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/24 16:47:47 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/02/24 16:48:33 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/02/24 17:23:35 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,16 @@ int	letter(char c)
 
 int	print_word(char *word, int i)
 {
-	if (letter(word[i]) == 1)
-		ft_putchar(word[i] - 32);
-	else
-		ft_putchar(word[i]);
-	i++;
 	while (word[i] && word[i] != ' ' &&  word[i] != '\t')
 	{
+		if (word[i + 1] == '\0' || word[i + 1] == ' ' || word[i + 1] == '\t')
+		{
+			if (letter(word[i]) == 1)
+				ft_putchar(word[i] - 32);
+			else
+				ft_putchar(word[i]);
+			return (i + 1);
+		}
 		if (letter(word[i]) == 2)
 			ft_putchar(word[i] + 32);
 			else
@@ -44,7 +47,7 @@ int	print_word(char *word, int i)
 	return (i);
 }
 
-void	str_capitalizer(char *str)
+void	rstr_capitalizer(char *str)
 {
 	int i;
 
@@ -72,7 +75,7 @@ int	main(int argc, char **argv)
 	{
 		while (param < argc)
 		{
-			str_capitalizer(argv[param]);
+			rstr_capitalizer(argv[param]);
 			ft_putchar('\n');
 			param++;
 		}
