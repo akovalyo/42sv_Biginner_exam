@@ -1,0 +1,56 @@
+= snake_to_camel ===============================================================
+$> gcc -Wextra -Wall -Werror snake_to_camel.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./p73k2kxywbljmy0zptavm80q ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./na0est2i3y469m1ri3u496hj qgnaemyhzxbulosv_twdkylr_uvpomxsfn_udcqgwfhxtiepova_oyuebztqgvw_yukvqla_ophfkaeyrbwqld
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./6v2y1n428oyj3xj0sbr1tqgl wdnlzhkv_fmpquhdctilbejzn_izlksbmuwhga_hsb_qiwnruehfyb_sycdp_zoya_dgqkfwxvu_wcbemkatpi_lhpcwqzn_akbmzopyhnewvxsd_cebsywodgl_eaqbw_ogsyht_bua_pvb_ydtlkejfqrhzgmxap
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./hsui4j7lku59qiangoxmfumn vthkbaxejqncory_xkpc_gsjztnedybolkixa_iydbchzekop_moejkphvfrtxynsbg_bnihrgtzpx_oqnujzcdhib_scxne_dtn_ebiwgzlpokht_evljwkfr_sybmagd_foeztvwilncmupgr
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ndwo8a1xvuqau5znz2qlpu2w xfkqiwesp_hubpw_wxsmvzkpjbce_mwayrxdsijefu_nuaqwvkyltpr_cpam_cxdy_ckzmraeslxt
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./il96ec4091t2mioz6hex4k5v qpeurntdmwbokhy_gyrwbn_zjoyfswi_kjxdtyawicvfmbhq_ntgkdvombse_bgkjoa_dqx_ymcpvd_tdnylfahqowzgkcxm_yeinuzxodhfqrgpt
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./alqxl9bynb8ljhpanou2f8rp wklqehximjzdcvu_hmuajo_wgp_eazfbmtriw_vtkw_pdmg_wia_xifpbdehwmnu_pvgbkuwtocrszy_sqmjfxviphyr_iqmpgrnlawzj_zfyo_lpei_upyemaclbgrjqhti_pavgf_ozmxwk_sclkqotynwavju_nwyqhjmogelvpx
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./27hexv3eibvtzisqy8i9sbgm swape_cdquvfhwkmgeb_fvajywbdtxzo_wqipyksrx_rzeuqhljtkwbiagc_wacint_jdvx_uwgqoncalti_kcmgq_yecsmwqgiohkbz_drgcpfsaxnbyvhlko_xfqbacdepziorlt_ykngspwlxrztmbd_amezicrvh
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./pz9a43culwvzid5pkz8erti4 dvqgjb_hbyzkpda_egjayqzuviht_yneoijzpkgalhvs_dgjlohiwfu_lhwgipjbns_pgqkzw_bxuh_fcnxkjeawtu_ohnljktacmi_sktrmyjbaex_yfbuswd_lgi_ikwsbjdqpu_jxtd_fib
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./2mhm2ix2mktv58k660nqb1ji uatjrnyogcw_bprtkwxqj_mjzqecihxpokaw_xrmkfuhptzgadbyn
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

@@ -1,0 +1,51 @@
+= aff_last_param ===============================================================
+$> gcc -Wextra -Wall -Werror aff_last_param.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./5g1h4ybfz8zomh309xljga5s 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./cuuoc5qxfrhy1imnj5x3q8a5 "xNXTKWGMLe68SYZ9"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ceaaivhrn9ucdwpwlv1atgio "5dySTkW6Fat07"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./rlad4q8tdjirahfbp43v6snt "9fnHZ 1 WG8oRijryaJB nlyga3oRsQwE"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./a3qzlmgrxjcjtrzm5lg8lfkd "zaHwpxKN wxorb 2sqno tBjs7H69 wZj sGH kmZXWx3 l C7W04 ePst"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./t8ikwkls95bdkaxg4eh5qmt5 "bc8l71" "SJajEMnt" "Kpdi" "J6hRs5I8mcn" "eA4Qo" "ae" "7FAxaRSCm2" "jCE" "W1qNkrhCJdi" "k0m" "7MRjnOx1lbC" "XvTe0CUN" "vpQqxHOft" "KUsQ" "XwYyCEmhN6vp" "jm2l"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./48pos9toqgtc1yjgtkafzavt "jRK8GPo" "YeVEGMSXmo" "vM6SnxqgC" "cDXMBi" "F5Ed" "axbuYm3O" "AwB4sZ" "hA" "XCP9EfG" "v" "rT" "Bcqls9" "lKGL23QxmN" "2CDZ"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./aawgyvgjr2wadfkutehrgnv7 "Q 9elE" "Uywvg1 MSkNqVTjgRrK" "jpHR iwnWSbt2usXe BPuSg2QTAZ UEbvZaBSuq" "nitKu3NgOC R6De0CY" "U6TtAeu491N EJrcqBASZ5b" "yds wzmpfMg qJ"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./6h6rsktdd9x2ugt4kociy8a7 "N" "VBi9hjCmOD f5vNHEjuROQ USDIJ1Qd" "IBO1Yq wv4lGH0b1y GTOeR2s" "g6UJ8OmTw Fnpi8KJ rAeb4kpYEL SLfd93x" "O ZI2MdXQ6c9N rMp9q5hHlC" "pj46D" "nrbvgUieVc" "D7d6Nw gyLk 6LPdwGgJpr"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

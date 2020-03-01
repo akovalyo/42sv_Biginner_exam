@@ -17,9 +17,9 @@ int	ft_list_size(t_list *begin_list)
 	int i;
 
 	i = 1;
-	if (begin_list == NULL)
+	if (!begin_list)
 		return (0);
-	while (begin_list->next != NULL)
+	while (begin_list)
 	{
 		begin_list = begin_list->next;
 		i++;

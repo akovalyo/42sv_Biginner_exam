@@ -1,0 +1,51 @@
+= ft_swap ======================================================================
+$> gcc -Wextra -Wall -Werror ft_swap.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./7s6sj0oq8rpaidklllhpuofp "700530622" "-1265210231"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./oacjja1e6qg55k40wk324vtm "426324912" "739245843"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./369tzxco6qpny8d52qib5a0s "-700963886" "-1519822914"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./c63a1cc6brccgzoqg5r4opx7 "960784640" "-1284051052"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./vaxho76cwswgi1n0exmgpluy "-569328040" "21429408"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./8elbeo5t237cnvbkdomjolb2 "1614722094" "-1795153981"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./wxa3rjxfi3ew939wzs3rux9x "1226070142" "-832779403"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./swhayfno3vpbn9vy6g6ayset "-423130458" "1725893234"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./0u3jjli9uiuegqi5yjc4ztw2 "97204404" "-48610816"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

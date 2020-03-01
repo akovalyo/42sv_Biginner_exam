@@ -74,7 +74,6 @@ int	sum_prime(int nbr)
 	
 int	main(int argc, char **argv)
 {
-	int sum;
 	int nbr;
 
 	if (argc == 2)

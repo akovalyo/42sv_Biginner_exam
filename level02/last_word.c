@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 10:16:17 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/11 10:16:17 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/02/29 14:46:16 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ void	last_word(char *str)
 		len++;
 	}
 }
-
 
 int	main(int argc, char **argv)
 {

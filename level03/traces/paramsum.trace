@@ -1,0 +1,56 @@
+= paramsum =====================================================================
+$> gcc -Wextra -Wall -Werror paramsum.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./8tmxnjkoi3chalqr901lrkr2 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./iohrwb6vj7333xgswcebfjd4 "qNXQ4LikAU8s7"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./uhmq9nyppu61pxgo1jjnvrlg "hMWF6KqIT"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./614hwu4g3n104w3vqnehrum6 "eA1PaWxGrC VEfFZ05W1U ZWP9VcqX5m30fx qKw7RIit32jkCS prQAdlYuXB wpl8W2BSOTVidyr9X rAOshMeBY70IGT o2WglcDZPxT P3Qa9oRCqW rzcCfDuNw9vb31p Pprm3YqDH5lhLc4i 4eSlvJ"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ldm9pxqr4nzq6rkrq80vpeyb "ZI26m Y7kU6 7A19BiDeQ3Z 07QnShqT3ok4Cu6m T0w ZWl8GQL96Rh 85yTu 8CljZdbXI7QJYxi MPRbHouNiW unbdgrzQ qyt YiHuReLsrwv3CWhZ 4uI3A gY0yPeL1GoaxRXn nbiZCWM OWtZrTg0vHJ f3l"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./o9hwv1u018othn4u13slbxsv "sFT5" "WeA5D" "zrP" "VRBb8TKqd0Gv5hr4" "pjE397d6Iu"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./fcmq6n8wh7rlbl1o0qvzpyl5 "FyNJuASRO" "6hsMDXErj7pYV" "IF3Owfe5AK" "P8Kf3czgV" "83KNSzAklfb" "k8N2pBi05" "3lrZERQHi" "wpRvS9U" "OPXvJ6iwM3GZNktH" "J8wirsV0zotGDZ" "DHcm" "j59uwN" "BrTeS6vjcwXg" "DFWNoRn8d7gM" "gR9VuMUWXE" "8OxnGrIW2Ts"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./t1e81n6tlkyptsjaxlck8ld2 "fWc92Cgv oSWEcz9OBiL4m6jK0 Zby0QCucKwFN4l T93EpSOd NjlmbL l8Rh 5Jziywua y7ijxXgBWH5c toLn3hj0gPc6D MtkpeA PGT7zw9Ha hUC3 1rHCagciLN0k56K28" "dKOWLy3pQIk Es89zfSQtYhFxowTO oxyXLBYnOfJ7 fynBZETv0Oq5wV IRyLNzloZMdY7s fFpvlIU 78o54qPfp HfYgrEZSvI7iB 9i763AQ bpjWHPgkD zZVPO5F fpWo8eIZ izoFtJZS SWQqDsVdNxI1T9 NYd MRIXlQD6qTn5wS7O" "K3VMfEtPB CnP02NXsiBzl nXWVq7F83hkYR9G eWoMOTXHD i2GwNSlHQ O0W dKF OV26UdBuZ sFEmySiaJL HgYAtmrZ mY8XEv7WJSBbp MpyXn56svDZ jntA0 BeE9iO BvA2pf9ukeNmXM QxXLThwg yAOIXeUiLNF5bvT" "3neFmNiX1JEpqM4a PCnN7Y rx1aUA3kt RlM82pmN sz0nkmV6pxDcuydL oQwazeg5TiksZ SxbY7Wk25Fa admbpsZVPDGfvt0J nqUAPGaHxhK1Ef bd5V2ehOZyqoT7AI uXhMp8sSi TlZcp" "7WlhvDU0JfwKmGt RljJ0V2HKzSDyfsC7 SuU7fHgAhspvtx63 8WO NwyvtoP RACqdZE6rtDz p5SH e6DYdjJfm0S" "yQ5lsJd ZDguwvqyKmFp8ba d018tQFT t9HLwMs bVWEmL2poz8DB5 cMrA GD3Ow MCUZzyaVF4t6B dwb9CsyAIic8u mAVTEqf5D7 U8EqaL yFBYh3OzJWr2 EgLZWc4NH 4nREV2aHNJFe CzIns3OyroX foBbN5xnrRLEu7Dwv" "zmF cX9Nz1dTbeSx 9CBPtr wXM2Lx6mlr HnxrIUJ0NXF2" "ceKRNl8 IfyLPkHQ LhrSIU dMm0QTI 5TAZQb1rX NoYXuRebw oILx4wq Ouv7Eea zGZCt PjYLBHoT6isKZ lpFmS aMl2 4WeVQyAd bm8eTlNjPdRCMDn G4jsSMkhrYKf0q BaF2SwD34KbsG0" "TEQu0ec1W G27ZiK05N4vB oTDwA nysYaR7t olHuiCGFv a5NhKjAq37 gAfL6pCxW3aG sIkS JL1CIorRvyuNQ IV0nvJcLbPz" "BhR CYoHFkwde fBWuRw1O2 6T2fQ UfxejJMDtl LxYB vl9 5HU0mn2s9a4WvRTD phqxdK5 cZr0s3GQE2 bRnELC vN2s" "P1MTEBDifXKuLOS w7V3lWjX UdBCySL tqijB8 kZFm RkXhWF8NxuIEboi7 QkwdOqM4yKf wXQ2PzeBNMyEsFt HEDsrjX6qLBZu50t Xr8fyo m8wvNtC1H5hAs qLeDam6 HDe8F fIejdKbhcmR1P2zY 4REs"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./sd0l49k08ahn93xky5ni48e1 "s3dQO4GuwT rWKuIRL LjWHOa12ih M8lyitrdqb6f4BD" "zfZR6NiksJv fLsi wLOYpXsIJfQ2 4oeMHctkzG1C dM3YzGcF82gW0r YpCA5tMBvF9IJxR yhS9sN4UmxzonKf82 xdNF5gGysenj jIqT7LVKFR5mYaQP W6KSYgP7Grsa85ld ZEqVPCwKbNsm7 XFrcRQb LEMyRSK jgTUZ" "xdhDGE0lSsVzkZj cmw EB35xakm8CD sMH3FrpV2Eh b423N1x7zY5P 8Vn xJZH gT0ymLNbsfEz pJcXIZC5S8k P7jXvQrVx kFvzRnJiu7StGZ 4zLxN EUJKLnq0c1vPWYAm vY80GQEWINwq7o95C" "ps5EWKDbf er3fY Ic0eFMwVN 3tSMLJZ4c GsOaxrg1 pgKVLbRxt5mIhHJw0 fp7Y9c3E 3Vx9 NlCQPXMp8eGTUE ru6KMLG dLa sQZqfYhIwM2B fOeIFm5RvysCHYJrT dfc 1IOpzsrCcJ lF4BjO0YLxwzGNQ iKHDM 8foIxSXpEU" "pXv4sgU7J tWrTdA6JQnZbMlS1 NSY fdu1irTgQXCEHl7j8" "LYqNVw Npus zeRO txFr UN36sxraVY2RfblM RUs2fmSP7a9Lt zqduitmgv ltq4AKr6w ZtjA6frqGNXp9RV I8b5ldeWUaSZpBC yudmiWG gB3D0Nc9ofZdlX 3xWIBnJETNb bXihN" "8AULBVFWsHn3pb p8S SiWI3f4 yznxG l6LqKH" "rpqbLhta A6X MEYXgUVrs uRfOGNtlemyq7 B8yk9xOan1eVzG K2J7z6ejlW btMy4WVXOAYDB AfTC Pq0r kiaRU0zmhyEQ1 s5Bd tGsi I3V9ZLbNrzTXQF Va8Giz7C60KwsbY" "t4NhS3XvOe6M qbXg4Z9BGktjF7Y jM7yuE6zbktlO5 nCw5OKxo fT4BMv0QL5AjEhsd nu0 H52wIN3 NYZ4lkrPs8DqhBbQ I5tbkpcwJMF Lth vCIY7ADao" "gxhBj5NVW ZjuWz 2cwIBXKqSRHeE54 GfitV6954oYLq hLHnmOjF8MTQZ7 DNV43gSyjvW17i IhT qTby euxCSz67y0n HlnpcmKFVa4wB JQN07 AfEQ" "Fl1ZsV5zpmSG poAKSEv KfLeblkN 6PTeAmskIVafySJ4 Mdfxb4JoXl 2BwovHJ kEhNtU1ivWQRZST7D 0riGpEVFX 5gQ8yYhmISkTW" "29TpK 80yfmtB6JVFw2NUsl 8u9jL6Da0V IU1rQX4aKuAHF23o TYrAnB3JfEt e1aETBim4Wt9nDw LTlE rBKhASRgLfDpIc haNOnuc9dTRGt0 qoYDOC JChZecPLo8k3DaqrU lgYxUOWb7VP8TvN wOR nakKEIJrf2m8 lY5c9Aig3xewv qR1nJlwCTvXxgPf FaDK86q" "Vhl4BO8sPyCkGF sXcaHRDQT5UO KMQ Yn54" "3SeNK45TtcWF8 HckjO n9dY yNz G1S7hAMrLDHykdXFB VWHo4YUXyjM76ZOIa X8EvCFGST9Y1MhnHd wPJdkUih6ClfIe3sE yt6LbcWK hlkJ4EaOP 1xpJ8Djsq9Bd6UW jn0tLx" "0Hruyvlez6oPbCAR LNPT3H7 ChG6y8iAMIH UlC3FzR0XJ UQBIrmDuVx aVs1NxyM SN1klIrUB OBe4VfSq251k w5nHWEGp3Yr1Qdb9 SYmkZDsoglAUz" "v9gK EBY3heOUTAinZMd1 OGydWzxPS FmLqn 4iaz3s UuAXxtLw1o5Dp WCTt96K 8KezSTZMn62gd MmRpBGJOx7ubX h5F1 pvAuQgYcKahyJ vjqwY 9eoBrCHYuxq WciV8NsThxE NO5kUDyl6IjPB0w"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./kj8wx1vxkhn7olb0zx78qaak "c30IP49kC7JwFpQn1 K5k HLs3WrRAnl6aGX iHdO6a8 nyIK2vp OmvDx8 dQzPIpKisT TQhDnlZAj3bpesW" "G8vHuLrQw7i dqlGzwZrkhj 37Uhs Fu5e OGWCP1e2YqA8L Aaqz9n 7tWUYsTpl0w xbN syRnXPOFEd6twf fcdWq9HSAJ1U0gy4u JvDa2UyB HME6R hXSrcG3tpDFv2EZBP Nd1 6hV9ktcj kOXvp8B0yDNV6J YLS72VqTg3y0k ZBo7ikdw" "FP5WQOf7tKd4aN 9NUHuiemB w9tHc K5plUw9zbQnV1PF 0g1NDa4I5yh CE2 Nq6YK2tODwkI kJQY8AywFcf9 bxJq0vyCnwiLd wovfC8z1 8V3rqxdBojheD qU7LSk9v2e huJUtry wxFMGgaeIVC" "OqFiI6Bd gRlXDFBdfLSbwkQJo JSDjTR4 VSKkiQ1zejxYm igbEyXYqpMTrmv YdakLtbKW" "K9qQ5fJNMHCBLZwoR AnOieJpWdoc uzJ1nMZl9VGKwi0 yStr5NcTYfsVIv1 uCMmQBLpf9rGF82cO Mgk13S JsF 4B0o932tYWyPKZdq 4hRYt Bgby6z5J L1hDV8TUzJ2cn aWxO3c0mGy 9Ho43K" "OUswP94XiNMH56oja x4mthIDTN0SW IM7FXNmwsoxG Bc56k1X3pIQ UuwTXp EXDk6U hcP647lQKJ5Ce GstOg4CFbDVLU" "fwt EqguaAvpC3USm1K 75TEmnG0tRrI MdTkw oaM 7wFxGzHDf J8IqikXaZUG LjpH uS2HKNAb ub9jXdHRCsk2coq Hi2bVrBJMZxfc gdbmB1GZFzuaJ8pR 5qcx02lNMtHB1Z HlLrNAIEdMfcVJw DvPfVEegnJ3 5aHm" "UgpqE IzV0EUl ZXTn4odpJhwzxRAq rK0d G0KD3xCmVNbp2y" "0bw VcKAmrB Jil4Dhspf CvYrOfHq9MNA 40U3hlYiV AM2xKeQln JpGBXFy9 C69QOh LBTyqhgI xbdrnaRMfTpmS qDk 6rDN ZyC0JkBj gJsMfvDh 9gViKameY RIEhHfez Ezh0wo2MOnsV9iuj" "vAiIHzSfpB8RyuCe el2wufI3Kq7RoTCa5 2D6OilXuKTex 5P1qwaG7kH yofZMXvJDlwh0 TzlEMQZ54uK 3BKhHy 1nTf2Fg7 Qvw bkTNiaE3 x432N MRrE82Wat wdh6sXqMo9OeIazFN VNMsyPt9Ga dzmIcHuMpGqSBDVr 73tqZDh 9GMCrDsPi5xu8mJc rhJBCxO4Da" "Sr8qGo Ndl CnsHr9yNO3a1 29YOERU6moVaQ7 q8iu MQr8 Pb9I6FtY3oDQSufm yTJRo1ZWQfLwH 2N8wfzM VsWEoc5wuBS3Pa0IG 8d5FVexX6wBz2CYAk xFE1BpnUhofKgmDr" "fm2JkF57RYO W8feq mpd5N2ZOfJ1S B4HFmXfuaZYGTL HwF 3XuM yECZDsUAPrRH0h" "6Kk4cbUHIpmAhjT HV2OYEe DCn OH9dv XWjnodKpGOZTcweYm Cdswqz4 6bzqjgtWsR OpFuTjwN bZR6s4nCF2x JrY5LVigwj4M oeRxBnw9IsN7MrT" "So5 irYMF6tnlVyBX5sQd 9kn8GQd P5DFSywvuzih2 LpJnDI xNT2QcV9 piT1Q2ZUbCG PBC5oI 9XzvcZAkmD JaR0F9BvIYjZtOH" "0H7r TGIUbKq 5Jtq8oXp01D4U o1qFHuPT2gWwydms nQePYmCBNcti wsVLGmj9 CfbL1wJlZ 6x3YtFr edbrHwWVIPSF 0K4EaCJmx3rhO PIdquWHJ49bTjvLX DbIPxQ" "spBd0Oc5NgEwm Yr8LczdE2wg K5qjinC8p o2a9V4r WD6 IqbWprojyXiKdJ X9YSks6qEIyL1A" "LhO qeAlZkJNnK A5ymY2jtUbwNsr Wat42Bi5ej iJBU67KsaFC42vh fLZ4FC3twIc 9doamf7i boIPRmU tf9kGbBFQrgKn3 h0iy7gW8CTL giwlKVCJd 18M3m0j 91SMxPd pycMouOKPUVGWa2 KZ0DOH w67GN8CJ3fI"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
