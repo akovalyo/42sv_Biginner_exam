@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 13:39:53 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 13:39:53 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:36:40 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	main(int argc, char **argv)
 {
 	int a;
 	int b;
+
 	if (argc == 4)
 	{
 		a = atoi(argv[1]);

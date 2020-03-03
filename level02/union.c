@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 13:49:29 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/21 20:49:23 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:42:21 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,8 @@ int	main(int argc, char **argv)
 		i = 0;
 		while (argv[2][i])
 		{
-			if (check_repeat(argv[2][i], argv[2], i) == 0 && check_char(argv[2][i], argv[1]) == 0)
+			if (check_repeat(argv[2][i], argv[2], i) == 0 &&
+					check_char(argv[2][i], argv[1]) == 0)
 				write(1, &argv[2][i], 1);
 			i++;
 		}

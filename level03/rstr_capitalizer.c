@@ -6,7 +6,7 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/24 16:48:33 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/24 17:23:35 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:26:28 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int	letter(char c)
+int		letter(char c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
@@ -26,9 +26,9 @@ int	letter(char c)
 	return (0);
 }
 
-int	print_word(char *word, int i)
+int		print_word(char *word, int i)
 {
-	while (word[i] && word[i] != ' ' &&  word[i] != '\t')
+	while (word[i] && word[i] != ' ' && word[i] != '\t')
 	{
 		if (word[i + 1] == '\0' || word[i + 1] == ' ' || word[i + 1] == '\t')
 		{
@@ -40,8 +40,8 @@ int	print_word(char *word, int i)
 		}
 		if (letter(word[i]) == 2)
 			ft_putchar(word[i] + 32);
-			else
-				ft_putchar(word[i]);
+		else
+			ft_putchar(word[i]);
 		i++;
 	}
 	return (i);
@@ -63,8 +63,8 @@ void	rstr_capitalizer(char *str)
 			i = print_word(str, i);
 	}
 }
-			
-int	main(int argc, char **argv)
+
+int		main(int argc, char **argv)
 {
 	int param;
 

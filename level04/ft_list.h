@@ -1,23 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   is_power_of_2.c                                    :+:      :+:    :+:   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
+/*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/11 09:30:12 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/03/02 12:40:09 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/03/02 15:38:47 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/03/02 15:38:51 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-int	is_power_of_2(unsigned int n)
+typedef struct      s_list
 {
-	if (n % 2 == 0)
-		is_power_of_2(n / 2);
-	else if (n == 1)
-		return (1);
-	else
-		return (0);
-}
+    struct s_list   *next;
+    void            *data;
+}                   t_list;

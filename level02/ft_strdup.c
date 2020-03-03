@@ -6,13 +6,13 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 18:58:01 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 18:58:01 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:43:16 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-int	ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
 	int i;
 
@@ -24,13 +24,13 @@ int	ft_strlen(char *str)
 
 char	*ft_strdup(char *src)
 {
-	char *new;
-	int i;
-	
+	char	*new;
+	int		i;
+
 	i = 0;
 	new = (char *)malloc(sizeof(char) * (ft_strlen(src) + 1));
 	if (new == NULL)
-		return (0);
+		return (NULL);
 	while (src[i])
 	{
 		new[i] = src[i];

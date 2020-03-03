@@ -1,0 +1,11 @@
+= maff_alpha ===================================================================
+$> gcc -Wextra -Wall -Werror maff_alpha.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./h9zx92c5o2y7ujxhl3i98zfm test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

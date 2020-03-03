@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/24 08:30:42 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/24 16:47:47 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:27:48 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int	letter(char c)
+int		letter(char c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
@@ -26,19 +26,19 @@ int	letter(char c)
 	return (0);
 }
 
-int	print_word(char *word, int i)
+int		print_word(char *word, int i, int f)
 {
-	if (letter(word[i]) == 1)
+	if (letter(word[i]) == 1 && f == 0)
 		ft_putchar(word[i] - 32);
 	else
 		ft_putchar(word[i]);
 	i++;
-	while (word[i] && word[i] != ' ' &&  word[i] != '\t')
+	while (word[i] && word[i] != ' ' && word[i] != '\t')
 	{
 		if (letter(word[i]) == 2)
 			ft_putchar(word[i] + 32);
-			else
-				ft_putchar(word[i]);
+		else
+			ft_putchar(word[i]);
 		i++;
 	}
 	return (i);
@@ -47,21 +47,25 @@ int	print_word(char *word, int i)
 void	str_capitalizer(char *str)
 {
 	int i;
+	int flag;
 
 	i = 0;
+	flag = 0;
 	while (str[i])
 	{
 		if (letter(str[i]) == 0)
 		{
+			if (str[i] != ' ')
+				flag = 1;
 			ft_putchar(str[i]);
 			i++;
 		}
 		else if (letter(str[i]) > 0)
-			i = print_word(str, i);
+			i = print_word(str, i, flag);
 	}
 }
-			
-int	main(int argc, char **argv)
+
+int		main(int argc, char **argv)
 {
 	int param;
 

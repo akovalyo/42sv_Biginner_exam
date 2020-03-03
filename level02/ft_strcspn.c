@@ -6,11 +6,11 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 16:30:07 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 16:30:07 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:37:07 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_reject(char c, const char *reject)
+int		ft_reject(char c, const char *reject)
 {
 	while (*reject)
 	{

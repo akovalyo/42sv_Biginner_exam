@@ -6,9 +6,10 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/23 17:31:36 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/24 20:14:12 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:22:29 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <unistd.h>
 
 void	ft_putnbr(int nbr)
@@ -22,7 +23,6 @@ void	ft_putnbr(int nbr)
 int		main(int argc, char **argv)
 {
 	(void)argv;
-
 	if (argc == 1)
 		ft_putnbr(0);
 	else

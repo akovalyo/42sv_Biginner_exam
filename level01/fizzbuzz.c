@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/09 16:58:57 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/09 17:14:21 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:27:25 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,17 @@
 void	ft_putnbr(int nbr)
 {
 	if (nbr < 0)
-	{	
+	{
 		write(1, "-", 1);
 		nbr = -nbr;
 	}
 	if (nbr >= 10)
-		ft_putnbr(nbr/10);
+		ft_putnbr(nbr / 10);
 	nbr = nbr % 10 + '0';
 	write(1, &nbr, 1);
 }
 
-int	main(void)
+int		main(void)
 {
 	int i;
 

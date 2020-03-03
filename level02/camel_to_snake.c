@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 12:34:59 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 12:34:59 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:33:39 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	camel_to_snake(char *str)
 	}
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	if (argc == 2)
 	{

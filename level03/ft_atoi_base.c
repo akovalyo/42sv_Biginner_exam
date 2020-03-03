@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/17 03:18:50 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/17 03:18:50 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:16:50 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int	ft_atoi_base(const char *str, int str_base)
 	}
 	end = base_str_len(str, i, str_base);
 	while (end >= i)
-	{	
+	{
 		result += ft_value(str[end], str_base) * power;
 		power *= str_base;
 		end--;

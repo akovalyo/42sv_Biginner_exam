@@ -6,13 +6,13 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/13 19:42:00 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/13 19:42:00 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:51:28 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
 	int i;
 
@@ -22,7 +22,7 @@ int	ft_strlen(char *str)
 	return (i - 1);
 }
 
-int	last_word(char *str, int end)
+int		last_word(char *str, int end)
 {
 	while (str[end] == ' ' || str[end] == '\t')
 		end--;
@@ -43,18 +43,18 @@ void	epur(char *str)
 		else
 		{
 			while (str[i] != ' ' && str[i] != '\t')
-          		{
+			{
 				write(1, &str[i], 1);
-                  		i++;
+				i++;
 				if (i > end)
-					return ;	
-			}	
+					return ;
+			}
 			write(1, " ", 1);
 		}
 	}
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	if (argc == 2)
 		epur(argv[1]);

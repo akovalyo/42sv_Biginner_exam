@@ -6,7 +6,7 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/21 17:58:41 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/21 18:31:51 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:28:07 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	print_tab(int nbr)
 
 	i = 1;
 	while (i <= 9)
-	{	
+	{
 		ft_putnbr(i);
 		write(1, " x ", 3);
 		ft_putnbr(nbr);

@@ -6,7 +6,7 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/29 15:25:10 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/29 21:05:01 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:29:33 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	swap_data(t_list *lst1, t_list *lst2)
 	lst2->data = tmp;
 }
 
-t_list	*sort_list(t_list* lst, int (*cmp)(int, int))
+t_list	*sort_list(t_list *lst, int (*cmp)(int, int))
 {
 	t_list *head;
 

@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 15:52:42 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/11 15:52:42 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:42:00 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	wdmatch(char *s1, char *s2)
 	i = 0;
 	while (s1[i])
 	{
-		if (*s2 ==  '\0')
+		if (*s2 == '\0')
 			return (0);
 		else if (*s2 == s1[i])
 			i++;

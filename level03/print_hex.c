@@ -6,9 +6,10 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/23 14:22:46 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/23 16:27:37 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:28:29 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -16,12 +17,11 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int	ft_atoi(const char *str)
+int		ft_atoi(const char *str)
 {
 	int nbr;
 
 	nbr = 0;
-	
 	while (*str >= '0' && *str <= '9')
 	{
 		nbr = nbr * 10 + (*str - '0');
@@ -32,7 +32,7 @@ int	ft_atoi(const char *str)
 
 int		hex_ascii(int n)
 {
-	if (n >= 0 && n<= 9)
+	if (n >= 0 && n <= 9)
 		return (n + '0');
 	else
 		return (n + 87);

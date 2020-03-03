@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 19:51:58 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/12 19:51:58 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:47:57 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,18 +18,19 @@ void	ft_putnbr(int n)
 
 	if (n >= 10)
 		ft_putnbr(n / 10);
-	c =  n % 10 + 48;
+	c = n % 10 + 48;
 	write(1, &c, 1);
 }
 
-int	ft_atoi(char *str)
+int		ft_atoi(char *str)
 {
 	int sign;
 	int nbr;
 
 	sign = 1;
 	nbr = 0;
-	while (*str == '\n' || *str == '\t' || *str == '\v' || *str == '\r' || *str == '\f' || *str == ' ')
+	while (*str == '\n' || *str == '\t' || *str == '\v' ||
+			*str == '\r' || *str == '\f' || *str == ' ')
 		str++;
 	if (*str == '-')
 	{
@@ -44,7 +45,7 @@ int	ft_atoi(char *str)
 	return (nbr * sign);
 }
 
-int	check_prime(int nbr)
+int		check_prime(int nbr)
 {
 	int i;
 
@@ -58,7 +59,7 @@ int	check_prime(int nbr)
 	return (1);
 }
 
-int	sum_prime(int nbr)
+int		sum_prime(int nbr)
 {
 	int sum;
 
@@ -71,15 +72,15 @@ int	sum_prime(int nbr)
 	}
 	return (sum + 2);
 }
-	
-int	main(int argc, char **argv)
+
+int		main(int argc, char **argv)
 {
 	int nbr;
 
 	if (argc == 2)
 	{
 		nbr = ft_atoi(argv[1]);
-		if (nbr > 1)	
+		if (nbr > 1)
 			ft_putnbr(sum_prime(nbr));
 	}
 	write(1, "\n", 1);

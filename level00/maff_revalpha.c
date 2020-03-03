@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/09 15:44:58 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/21 17:39:48 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:26:08 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	main(void)
 {
 	char odd;
 	char ev;
-	
+
 	odd = 'z';
 	ev = 'Y';
 	while (odd >= 'a' && ev >= 'A')

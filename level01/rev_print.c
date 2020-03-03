@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 10:01:06 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 10:01:06 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:29:07 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,11 @@ int	main(int argc, char **argv)
 	i = 0;
 	if (argc == 2)
 	{
-	len = ft_strlen(argv[1]) - 1;
+		len = ft_strlen(argv[1]) - 1;
 		while (len >= 0)
 		{
 			write(1, &argv[1][len], 1);
-			len --;
+			len--;
 		}
 	}
 	write(1, "\n", 1);

@@ -6,14 +6,14 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 21:11:28 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 21:11:28 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:39:16 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
 	int i;
-	
+
 	i = 0;
 	while (str[i])
 		i++;
@@ -22,9 +22,9 @@ int	ft_strlen(char *str)
 
 char	*ft_strrev(char *str)
 {
-	char tmp;
-	int i;
-	int j;
+	char	tmp;
+	int		i;
+	int		j;
 
 	i = 0;
 	j = ft_strlen(str) - 1;

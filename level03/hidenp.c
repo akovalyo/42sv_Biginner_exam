@@ -6,11 +6,11 @@
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/23 16:50:14 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/23 17:30:30 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:20:44 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h> 
+#include <unistd.h>
 
 int		checkstr(char *s1, char *s2)
 {
@@ -32,7 +32,7 @@ int		checkstr(char *s1, char *s2)
 int		hidenp(char *s1, char *s2)
 {
 	while (*s2)
-	{	
+	{
 		if (*s1 == *s2)
 		{
 			if (checkstr(s1, s2) == 1)

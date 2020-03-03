@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 10:48:50 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 10:48:50 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:30:49 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,13 @@
 void	rotone(char *c)
 {
 	if ((*c >= 'a' && *c <= 'y') || (*c >= 'A' && *c <= 'Y'))
-		       *c = *c + 1;
+		*c = *c + 1;
 	else if (*c == 'z' || *c == 'Z')
 		*c = *c - 25;
 	write(1, c, 1);
-}	
+}
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	if (argc == 2)
 	{

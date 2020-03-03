@@ -6,13 +6,13 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/14 20:01:45 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/14 20:01:45 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:49:56 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int    str_end(char *str)
+int		str_end(char *str)
 {
 	int i;
 
@@ -22,14 +22,14 @@ int    str_end(char *str)
 	return (i - 1);
 }
 
-int	last_word(char *str, int end)
+int		last_word(char *str, int end)
 {
 	while (str[end] == ' ' || str[end] == '\t')
 		end--;
 	return (end);
 }
 
-void    expand(char *str)
+void	expand(char *str)
 {
 	int i;
 	int end;
@@ -54,7 +54,7 @@ void    expand(char *str)
 	}
 }
 
-int    main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	if (argc == 2)
 		expand(argv[1]);

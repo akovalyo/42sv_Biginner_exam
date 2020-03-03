@@ -6,7 +6,7 @@
 /*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 11:28:01 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/10 11:28:01 by akovalyo         ###   ########.fr       */
+/*   Updated: 2020/03/02 12:31:03 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ulstr(char *c)
 	write(1, c, 1);
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
