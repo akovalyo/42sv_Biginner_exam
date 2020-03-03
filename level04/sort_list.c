@@ -26,7 +26,7 @@ t_list	*sort_list(t_list *lst, int (*cmp)(int, int))
 	t_list *head;
 
 	head = lst;
-	while (head->next != NULL)
+	while (head)
 	{
 		if (cmp(head->data, head->next->data) != 0)
 			head = head->next;

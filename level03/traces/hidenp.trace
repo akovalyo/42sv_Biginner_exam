@@ -1,0 +1,192 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r9p2.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Mon Mar  2 22:15:25 PST 2020
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2020/c-exam-alone-in-the-dark-beginner/practice-exam_20200303/akovalyo
+
+= Git history ==================================================================
+$> git -C /var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user log --pretty='%H - %an, %ad : %s'
+2ec9af5cde2f4e9310900385eb85e0f42938284e - Alexandr Kovalyov, Mon Mar 2 22:15:17 2020 -0800 : 1
+5fe65f7548b7958a34a932f72f9d5fb3ffe7e7f4 - Alexandr Kovalyov, Mon Mar 2 21:02:56 2020 -0800 : 1
+0d5fdc5f76ef62e85164ac6eb4f77e1b37d6163b - Alexandr Kovalyov, Mon Mar 2 20:55:14 2020 -0800 : 1
+c0f3e5060777277546e61f9916faeee1b50b3a9a - Alexandr Kovalyov, Mon Mar 2 20:45:34 2020 -0800 : 1
+6af5b3e1b6957a55013ea56ee0e7a84b5bb6a3c6 - Alexandr Kovalyov, Mon Mar 2 20:41:38 2020 -0800 : 1
+c6110a14cba57d950335c98eae588760471b0512 - Alexandr Kovalyov, Mon Mar 2 20:31:52 2020 -0800 : 1
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1897 Mar  2 22:15 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 22:15 ft_atoi
+drwxr-xr-x  5 deepthought  deepthought   170 Mar  2 22:15 ft_atoi_base
+drwxr-xr-x  4 deepthought  deepthought   136 Mar  2 22:15 ft_print_numbers
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 22:15 hello
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 22:15 hidenp
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 22:15 rotone
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_atoi:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1268 Mar  2 22:15 ft_atoi.c
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_atoi_base:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  9080 Mar  2 22:15 a.out
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 22:15 a.out.dSYM
+-rw-r--r--  1 deepthought  deepthought  1770 Mar  2 22:15 ft_atoi_base.c
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_atoi_base/a.out.dSYM:
+total 0
+drwxr-xr-x  4 deepthought  deepthought  136 Mar  2 22:15 Contents
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_atoi_base/a.out.dSYM/Contents:
+total 8
+-rw-r--r--  1 deepthought  deepthought  634 Mar  2 22:15 Info.plist
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  2 22:15 Resources
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_atoi_base/a.out.dSYM/Contents/Resources:
+total 0
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  2 22:15 DWARF
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_atoi_base/a.out.dSYM/Contents/Resources/DWARF:
+total 24
+-rw-r--r--  1 deepthought  deepthought  9827 Mar  2 22:15 a.out
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/ft_print_numbers:
+total 16
+-rw-r--r--  1 deepthought  deepthought  4096 Mar  2 22:15 ._ft_print_numbers.c
+-rw-r--r--  1 deepthought  deepthought   974 Mar  2 22:15 ft_print_numbers.c
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/hello:
+total 8
+-rw-r--r--  1 deepthought  deepthought  978 Mar  2 22:15 hello.c
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/hidenp:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1441 Mar  2 22:15 hidenp.c
+
+/var/folders/gn/0y1rd_s91lq0nqffblg547340000gp/T/tmpJOFU8q/user/rotone:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1233 Mar  2 22:15 rotone.c
+ 
+= hidenp =======================================================================
+$> gcc -Wextra -Wall -Werror hidenp.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./siumo1zp8eeylud66t37ex6j 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./nye8nroep283i4jwh2itbcaj "salut a tous tout le monde"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./85sgyuazqc9p43dw2k1s3fwr "salut" "a" "tous" "tout" "le" "monde"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./jgdajugafr4lu2e4xpc9qfr3 "llo" "helllo"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./d8d7fslbox5h6tczff7g1387 "xGz0onulyJQwTdAq" "08p6fcGqrm"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./nxx060qk0ohrmyxmxqfzx9l4 "WxF9GRrX" "tgBvm9s"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./mgexmeqysi7vfk0rttdz7eph "IFlDwt" "rhBNW14jmdoKqDa"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./bk8ckkj8kaogzxlb1d9cfepa "H7Jw53oIh" "nZaJYtrH"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./3p14lvuqn61i3zssxjw1e4cx "sq" "hsGWqx"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./04mf2qtwtvk04be0u6a08sdi "BLnikZYdWx" "9sB"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./rrseh5v2l80dw40t1e7a998l "MOo" "UmMCOYo"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./cpok18be0htg9uc0zjoamubm "LTfKqpnatOJPC" "NrPAk79q3WBCT"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./qmhshmd8kb0nforpjbtipcdr "ocCHsM85G" "Tl0gUeGyYrj5HI"
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./rpwu5hx6fcacy0k353v7gk1u "MKZ5" "wGZ"
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./uc2umkrwtolp9s64m2a5tae6 "y6vs25ThCxO7p" "e8vE"
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+= Test 16 ==================================================
+$> ./toj8zyf6gp896bk1k2h34om8 "fm" "OfkmEA"
+$> diff -U 3 user_output_test16 test16.output | cat -e
+
+Diff OK :D
+= Test 17 ==================================================
+$> ./ubye1mlk7jnw1e466xiyyju0 "KVmI62Pj" "KFVmAIc62zqPYj3M"
+$> diff -U 3 user_output_test17 test17.output | cat -e
+
+Diff OK :D
+= Test 18 ==================================================
+$> ./12r5awhva16d4kr068w3t6ma "Tuc" "TnucO"
+$> diff -U 3 user_output_test18 test18.output | cat -e
+
+Diff OK :D
+= Test 19 ==================================================
+$> ./fnajybrf7mhw0qxtzf8ygbpo "7Cfj" "sL47rWwao"
+$> diff -U 3 user_output_test19 test19.output | cat -e
+
+Diff OK :D
+= Test 20 ==================================================
+$> ./gmhmczht3yjzlyi1u5ajrm7c "wF0ZrcoWR" "MSu0VCR34ofigQyGz"
+$> diff -U 3 user_output_test20 test20.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

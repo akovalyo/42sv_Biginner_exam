@@ -18,7 +18,7 @@ int	ft_value(char c, int str_base)
 		digit = c - '0';
 	else if (c >= 'A' && c <= 'F')
 		digit = c - 'A' + 10;
-	else if (c >= 'a' && c <= '0')
+	else if (c >= 'a' && c <= 'f')
 		digit = c - 'a' + 10;
 	else
 		return (-1);
