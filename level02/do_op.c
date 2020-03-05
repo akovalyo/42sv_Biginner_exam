@@ -10,30 +10,26 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+
 #include <stdio.h>
+#include <stdlib.h>
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
-	int a;
-	int b;
-
 	if (argc == 4)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[3]);
-		if (*argv[2] == '*')
-			printf("%d", a * b);
-		else if (*argv[2] == '+')
-			printf("%d", a + b);
-		else if (*argv[2] == '-')
-			printf("%d", a - b);
-		else if (*argv[3] == '0')
-			printf("Error");
-		else if (*argv[2] == '%')
-			printf("%d", a % b);
-		else if (*argv[2] == '/')
-			printf("%d", a / b);
+		if (argv[2][0] == '+')
+			printf("%d", atoi(argv[1]) + atoi(argv[3]));
+		else if (argv[2][0] == '-')
+			printf("%d", atoi(argv[1]) - atoi(argv[3]));
+		else if (argv[2][0] == '*')
+			printf("%d", atoi(argv[1]) * atoi(argv[3]));
+		else if (argv[3][0] == '0')
+			return (0);
+		else if (argv[2][0] == '/')
+			printf("%d", atoi(argv[1]) / atoi(argv[3]));
+		else if (argv[2][0] == '%')
+			printf("%d", atoi(argv[1]) % atoi(argv[3]));
 	}
 	printf("\n");
 	return (0);
