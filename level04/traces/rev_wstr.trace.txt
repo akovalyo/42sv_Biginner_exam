@@ -1,144 +1,104 @@
-= do_op ========================================================================
-$> gcc -Wextra -Wall -Werror do_op.c -o user_exe 
+= rev_wstr =====================================================================
+$> gcc -Wextra -Wall -Werror rev_wstr.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./8e3727rmjr7fl0ht8mnj6xgf 
+$> ./uk7f0n2fsmnt4nf7jdymz7yw 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./98bfzyl321b7ryzkuxxcae26 "1793" "*" "-4693"
+$> ./fvgepcimo04p7lgrj0sjnt0g "salut" "a" "tous" "tout" "le" "monde"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./28hudc4upu5l4geehjevn01e "16630" "*" "13441"
+$> ./1o86y8ra6hgoaunwioqmfvte "fF1RcCqVDQJxNG2jI"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./x5tgvf22lu67dugwl2ze6kic "13924" "*" "3005"
+$> ./c6y3k5vff0z0h67ugyrc1nnt "f78XjkVJGlp"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./cjmvgk2o78659b0zavabp1hm "-14157" "*" "-8155"
+$> ./k9zraftqmyfooqddjkakiee9 "IvPk"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./o5c9csrdk2mpwnke2fh8h605 "16382" "+" "-18726"
+$> ./cejycg9dez5ofd77rku5pxke "UBb3"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./hedbyw0ue2izq7b2w9nv1gno "-10505" "+" "-16633"
+$> ./j26fxzlgzhaoz53kt27rxxyo "vJCRdK0BwESr	qZyXYs0FB2c	UYQ7Cfwxu	JPaTuSG	hPJcNS	xAFb	IciNZ7Be"
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./505b280zbltnqwsswtrakpvb "-14991" "+" "2624"
+$> ./yl4ml030d8dyl3sj60vswiqx "P45	gFD	kxMZXwTQl05iqVFe	hNkvJaHCMQ	sP6KnCF5QWYE	kYLgB93Sh4iGdy	u9kagOvS8	ZyudvA4E	BCiR5sw"
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D
 = Test 9 ===================================================
-$> ./a71a70mrecrk4pja4ai3t8w4 "-18258" "+" "2755"
+$> ./xx84fvi8dp7hi3i4zazfa55w "VSbHk 5TCwLM YszypIumwSa7GAKx bpQFKHdVg rLYyC1HQ 0n1cHyQBGlXurd 2JzcZLWH"
 $> diff -U 3 user_output_test9 test9.output | cat -e
 
 Diff OK :D
 = Test 10 ==================================================
-$> ./0bcw2rs1fhuy62dwa43il4ua "-11179" "+" "-19240"
+$> ./q3vufburxq3a2m24ydnx2m6p "CncM	IiZ4okrhuD6	WK7vBcNe08gRiO	lhRY9gNHTuBmjr	bFwlx	c9K7nSB	krfPQCW	60urOfGX5iT8YRZJ	EqWoV1QmISKDaFPTY	9f42FvqVB8	S8Nogjm	awTOpJi"
 $> diff -U 3 user_output_test10 test10.output | cat -e
 
 Diff OK :D
 = Test 11 ==================================================
-$> ./et7k3e9juhchjl1zilydqetb "2481" "+" "16372"
+$> ./31o0ng8mvm6tp590uxyyr58u "5MPX	7us1XjbN0	MRcKt8au9F7koE1TW	hCwcxHe8l"
 $> diff -U 3 user_output_test11 test11.output | cat -e
 
 Diff OK :D
 = Test 12 ==================================================
-$> ./l9seewh12fe9z2oig76yygc1 "-13365" "+" "6748"
+$> ./7s04y980t0tfconn3pe6gxh6 "Idu4U	QCPWsy	hDGnK6u2Pxlb	zXRK4Ox6VI	fbP95oDJy	FGpePwxZgVdb	gFoRNb	vGgRyKoS0AhCxQp3	ioyUYx	mbRB	DQLv5lt3	QdKO9TxSR65Pm	kOqh	Y8cq4DvkMdNmwurgZ	GQZYL1Dq0sITVmx	e1aFLO3u098	B8oyFK	nokyl3J"
 $> diff -U 3 user_output_test12 test12.output | cat -e
 
 Diff OK :D
 = Test 13 ==================================================
-$> ./i1demk5mwqtiq0ym1z1dyuoc "-4274" "-" "11752"
+$> ./q3h9j2sx3ni3mjw9trjx1fdl "EfyQMZlBcKmbF7V4	0PlAoIcFHTr	fnQyaqdxAKX81	1Sh8Lemjl	Nktvr	PJ2	A1DKIeo	RDV	yrNslkM	DrsMHa2mBt	YupGwL4Bi"
 $> diff -U 3 user_output_test13 test13.output | cat -e
 
 Diff OK :D
 = Test 14 ==================================================
-$> ./un6u6dxlxbhmr0lefcplozez "-19358" "-" "8262"
+$> ./aszgh49lnbc39zs0hqoiiq67 "6bnOsA1PV UtsDfpquPHNSGi R07pwS4KQq612VU GLFsN0Ry"
 $> diff -U 3 user_output_test14 test14.output | cat -e
 
 Diff OK :D
 = Test 15 ==================================================
-$> ./5gk7whj5mnakc02glo4bv8g3 "10615" "-" "10049"
+$> ./nkah3jn6z8v0wuenqw9ftk60 "eCUQojfYHRbdOWV0	WesxdzGA7T8JQP0D5	lLI1h5Fr9GNY4wV0	itB581dLNqX	TgENpw	ETc72	Nwyj0o	ZHuY	tZJuzNYf1wRHvC6EU	CPYu	EiCZSv9opHy	Ev8jNJiZ	7YLyRj8G1QoBP	92tZvhdD0k	IiC	vRSyjWBP	aLhMA5TmeYrWf"
 $> diff -U 3 user_output_test15 test15.output | cat -e
 
 Diff OK :D
 = Test 16 ==================================================
-$> ./q3vt133qfwhwhv9m8nfbnii1 "-8346" "-" "-10466"
+$> ./29tsivgqzv5ydbhrr7yhyma5 "k2WxqJVE5TP0jw3ru oN8ZWDknqb365 Mu0cBWFl HCr4XI 2ge5 waTEBmIOp3rnKM7f6 7UpgXuyM86q5s CqwWUiX69trb"
 $> diff -U 3 user_output_test16 test16.output | cat -e
 
 Diff OK :D
 = Test 17 ==================================================
-$> ./02w5hhdmo8g61spcdo5za6ct "14851" "-" "-12524"
+$> ./wj1yr53s2dqv9j16vy6gd3mh "IgeiQ4acCbnvl7H	kv3SAcBPMr	obBW15wfdLnQ	xIRH9c	pngR52bEfjV6K	0rvwzqn2	muLIXlswbUAWcSyf	oj2KNzS	4YxTcN5DJfPBW	wiV6Nd7bQaCBoh2l	w4VTm	r0Js	KIYTGXky	2ERPfGgp794dMum	zprd4	OMFt6PN4wHis	J7sxFcU5ZorT"
 $> diff -U 3 user_output_test17 test17.output | cat -e
 
 Diff OK :D
 = Test 18 ==================================================
-$> ./v3floxyq3zax0kwjmllqpusj "19524" "/" "-19382"
+$> ./h4ihutrvrlk7j7ab50eroo4g "6Y879r Tw8Ys5KgXUN7aVS s8TPioR EWFBZdqH bPe9Q7W 2Xe DPzQ6q9OpUgk8"
 $> diff -U 3 user_output_test18 test18.output | cat -e
 
 Diff OK :D
 = Test 19 ==================================================
-$> ./i4vqnh51nutl6ksrd4be5m4d "9008" "/" "12854"
+$> ./8086pqjm476ukqpay3g4w1sa "9CEanXI 7kcxaAyY9 AMzjVNPDSRXkx H3V19i5u b3HZGN40JM X3u5IYnB iushlj3yoZ2nT l5tdU Sx2MFbJ1O8Ip gG7uiT1F0NSmdyY6o Vxn7 bny5HYtkNGuiWTM Y1MJjQmn4o LRYw"
 $> diff -U 3 user_output_test19 test19.output | cat -e
 
 Diff OK :D
 = Test 20 ==================================================
-$> ./at5qkqes763jsf5qnikwqtvf "14143" "/" "4871"
+$> ./qfx393itctp2zw5yt1dk3zwl "y69MQuvr8 5Kl1wL FKe HCILeY HwWtTx65guO9o u7O6USR 7K1Q6 zPm5MSGwY6JW MoKdjue28wkJINB"
 $> diff -U 3 user_output_test20 test20.output | cat -e
-
-Diff OK :D
-= Test 21 ==================================================
-$> ./t7d63nv5t33szhrm19ki1tkf "7378" "/" "2124"
-$> diff -U 3 user_output_test21 test21.output | cat -e
-
-Diff OK :D
-= Test 22 ==================================================
-$> ./x9us0oj5izy9lms8vsk4fygb "-10831" "/" "14406"
-$> diff -U 3 user_output_test22 test22.output | cat -e
-
-Diff OK :D
-= Test 23 ==================================================
-$> ./o2k66tualhlrb9idv6cjr401 "-14517" "/" "7596"
-$> diff -U 3 user_output_test23 test23.output | cat -e
-
-Diff OK :D
-= Test 24 ==================================================
-$> ./lxovvtep0o7y39k7hi1ng8a5 "359920" "%" "32307"
-$> diff -U 3 user_output_test24 test24.output | cat -e
-
-Diff OK :D
-= Test 25 ==================================================
-$> ./5ozhuu1j7kqdn6x4junzmji6 "320361" "%" "31768"
-$> diff -U 3 user_output_test25 test25.output | cat -e
-
-Diff OK :D
-= Test 26 ==================================================
-$> ./4grj5ngeogx0tkw0u0joal9u "120100" "%" "230089"
-$> diff -U 3 user_output_test26 test26.output | cat -e
-
-Diff OK :D
-= Test 27 ==================================================
-$> ./oe36uhgnbj7mwiwsb8mcvcm5 "237928" "%" "115598"
-$> diff -U 3 user_output_test27 test27.output | cat -e
-
-Diff OK :D
-= Test 28 ==================================================
-$> ./82pq5skjl546dmbssj8xwd1v "12" "*" "1" "12"
-$> diff -U 3 user_output_test28 test28.output | cat -e
 
 Diff OK :D
 Grade: 1
