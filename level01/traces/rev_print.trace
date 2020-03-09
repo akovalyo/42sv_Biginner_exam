@@ -1,0 +1,61 @@
+= rev_print ====================================================================
+$> gcc -Wextra -Wall -Werror rev_print.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./u230zoyn02y6rsukmiq17ouu 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./346zgnkjjhzwi434e37ug91r "IaX4cDFSun6Ao8Y"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./udvredxanw7bid063j3p8q00 "nEH7JYVW"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./wp7v7xid3r7nmieegartnnov "cl7H5V8oRyO6E"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./4h7jos9wydv6ljfaj2fs5d1j "6WUVkCFE7mLHfZKlq JC1qsXaQfx H5c82r eDafIrq0AovihZB MkVxci YcuEC mcVGAODgJMEx5 QVjO gxu9P5lBKbCV tmEhHD3aokv9 fUJyojsbtFuYTB6WC RPkyI3GYE9ism2Ot AqvUxCToS c476ESajX1sBR"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./2el2fk2z74g4a34mdjdf677p "Ruas gXl 5v3dIqiaNstnO uZObaqL"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./zdwk2wrp9mqtf0yocyg6yn69 "SgGaXM tq9gkAWKO18N5m KJzotG kyKLn6 iUkFJhX LWzpH Lhb4MDZxG2 s4uP5F 6irH5kpLDAgB Ogl8zawF9 lbRiC2 zXa1Aj8ckMpSfOKRP M5T16 wASJKX X570"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./tmq6obhmrstjvto9rhu2uqs6 "Ge8O3Kzd" "QHC" "ZalG2O7Su4BrIXF" "mnC0QhKdcTUOwrBSH" "5Pnqb2sw" "c8SQH6wO1" "NXpE"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./tl42bffcfjhsrd743uq6kuns "B5Tdf30LYZQXAUH" "SkVpdXbxGyZEqQY" "dOpPXF0cB2nRo9" "TAdRsMbuC" "UMpQvW" "GIncpf3LF0NA1hHaw" "Olu1vGh2t5w" "F8biVqxQuGXDNHtoT" "84O" "BXqSo4w3" "DTP1OMkJcfQlpFBvr"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./lwz4s2p01nacjfzcd9v46mce "pAyF5e xRWMG7Ssrjol6 N5x4QjE0P2 dhQv9poUajSnk2iH nyraT3cFDLlqBXu6 ixL4tPF71VlGw8u wDBjnLborNvFla61 YXFpZWelJIMSRjvn9" "jrqAa 9SyfBqrA4 F39ZaBdyCRo KSUA3dzjB Bpa LOvI YRuEa0DFXPl6vfA3 Qe8GDbEA Kg9pw4sEjQ8vnHha 16XjLWx DBvqN" "tCbD aeTD5ZAqHzf O38xe InF Xd7s1DCgnYv niGvCkYJj2Dodru9V" "WPSRowlTjCi vhiqIjDPK owUOkrSyD6T5L 1gOG7S2t UiHxR 9hnJyfGlxkojW k7HW9 JZPosy kSH Z8FPmox5 Jye9KaMDcn4p x6BoHZ La2fy HXTIMtUr7DV5azSn VOsr7BvHGqcy" "91qF8X 4lWr1Ve0XcD2ma5d bdWz8 TPK3X0ANrpx5s 4H0TLje7mRkEPiOta NOnu" "KvoPyRGE6 dh8EniVGvc4J Hc6mrJ dWJvINm cAWtMsU3FmHS8Z" "DR51U6amgjINebcJ ui9hGnDY2jdT5 V8mjkSdHcEoNWia 9ZXYE KE5I"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./0tkocp05m8i13ycinpi7z2mq "AmnGFTa1NHwDjbCy N24b0yZERqX9u5d61 WXuU8n72 r749tubfApMmBCR8 qJvayKIfW1V 1q4vWygEHtsjfQLrc P1ZDokYJC 7qsWpyijR NOMiDS4VAe hsdX6aC K6gF1El" "zcsbLZAqoEj EMiCtF0nBmYdQ 39xmDtFQ 65nOrf ofqaYiL5wVHpWds KDb0TvjL52E8HMu aYEPFJw QU6PA91Hwi3Lu5Dg KJgI7Ydf 2W0qQ57weGu8 LqIpirPb8"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

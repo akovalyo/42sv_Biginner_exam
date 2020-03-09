@@ -17,7 +17,7 @@ unsigned char reverse_bits(unsigned char octet)
 
 	i = 0;
 	new = 0;
-	while (i < 7)
+	while (i < 8)
 	{
 		new |= (((octet >> i) & 1) << (7 - i));
 		i++;

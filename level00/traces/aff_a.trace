@@ -1,0 +1,36 @@
+= aff_a ========================================================================
+$> gcc -Wextra -Wall -Werror aff_a.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./07xv122t7yiv4b89t5p3f8xz 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./36ohmab2et93z45ya9qrcq91 "17" "23" "42"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./bea429zrr8ik0vp9n2rzrzpc "QfqGiwbNZdaM7"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./3p1xbd030wh0frn64dixlnm0 "wtHhan"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ydf7gvuvbzd8qddh77j47pxz "8PE3Be0Uuz"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./lqtkm37h9pv6iovjmnu7cdsi "huH"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
