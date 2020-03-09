@@ -39,7 +39,7 @@
     Level 2️⃣
         
     alpha_mirror	      
-    camel_to_snake	
+    camel_to_snake	    ✅
     do_op	            ✅
     ft_atoi	            ✅
     ft_strcmp	    ✅
