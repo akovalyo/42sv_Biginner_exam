@@ -1,29 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   max.c                                              :+:      :+:    :+:   */
+/*   sort_int_tab.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
+/*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/11 10:40:06 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/02/11 10:40:06 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/03/09 09:20:01 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/03/09 10:23:31 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	max(int *tab, unsigned int len)
+void	sort_int_tab(int *tab, unsigned int size)
 {
-	unsigned int max;
-	int i;
+	int				tmp;
+	unsigned int	i;
 
-	i = 0;
-	if (len == 0)
-		return (0);
-	max = tab[0];
-	while (i < len)
+	i = 1;
+	while (i < size)
 	{
-		if (tab[i] > max)
-			max = tab[i];
-		i++;
+		if (tab[i - 1] > tab[i])
+		{
+			tmp = tab[i];
+			tab[i] = tab[i - 1];
+			tab[i - 1] = tmp;
+			i = 1;
+		}
+		else
+			i++;
 	}
-	return (max);
 }

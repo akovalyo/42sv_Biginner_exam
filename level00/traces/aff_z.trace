@@ -1,0 +1,36 @@
+= aff_z ========================================================================
+$> gcc -Wextra -Wall -Werror aff_z.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./fyxok7h3vd5ebziwi74xlp5u 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./02v7hh32rujibgc2jikxm36k "qnzAuEmyGCw19La" "17Bk" "5FJVldEUTw" "jLBdTvKzliO" "kQ4x" "1qsouSW" "jiEpIHofn" "LntIUpd" "FJ4EM8oLAZw19h5UH" "Mta" "3T0LusnZbdGNI" "XG2RtyxV"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./zi1rv8tpnm35z3s3x6atvlvc "zExdAah"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./kvvkyb5mf11qpinp5ia49t0q "QVznH"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./0sho8c6hgflfjlh2l1qhrepw "kScCP8lQy9xERVgrA"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./cenp8i5pg60bwdqpe4vpwsac "iso9a0"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/02 22:59:17 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/03/02 23:07:50 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/03/09 09:01:54 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/03/09 09:14:18 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,31 +22,31 @@ int		ft_strlen(char *s)
 	return (i);
 }
 
-int     total_words(char *str, char c)
+int     total_words(char *str)
 {
         int n;
 
         n = 0;
         while (*str)
         {
-                while (*str && *str == c)
+                while (*str && *str == ' ')
                         str++;
-                if (*str && *str != c)
+                if (*str && *str != ' ')
                 {
                         n++;
-                        while (*str && *str != c)
+                        while (*str && *str != ' ')
                                 str++;
                 }
         }
         return (n);
 }
 
-int     w_size(char *str, char c, int i)
+int     w_size(char *str, int i)
 {
         int j;
 
         j = 0;
-        while (str[i] && str[i] != c)
+        while (str[i] && str[i] != ' ')
         {
                 j++;
                 i++;
@@ -54,13 +54,13 @@ int     w_size(char *str, char c, int i)
         return (j);
 }
 
-int     last_word_i(char *s, char c, int i)
+int     last_word_i(char *s, int i)
 {
-        while (s[i] == c)
+        while (s[i] == ' ')
                 i--;
-        while (s[i] != c && i > 0)
+        while (s[i] != ' ' && i > 0)
                 i--;
-        if (s[i] == c)
+        if (s[i] == ' ')
                 return (i + 1);
         return (i);
 }
@@ -85,16 +85,16 @@ char	*ft_strsub(char *s, int start, int len)
 	return (fresh);
 }
 
-char            **ft_strsplit(char const *s, char c)
+char            **ft_split(char *str)
 {
         int             words;
         int             i;
         char    **array;
 
-        if (!s || !c)
+        if (!str)
                 return (NULL);
-        i = ft_strlen(s) - 1;
-        words = total_words(s, c);
+        i = ft_strlen(str) - 1;
+        words = total_words(str);
         array = (char **)malloc(words * sizeof(char) + 1);
         if (array == NULL)
                 return (NULL);
@@ -102,8 +102,8 @@ char            **ft_strsplit(char const *s, char c)
         words--;
         while (i > 0)
         {
-                i = last_word_i(s, c, i);
-                array[words] = ft_strsub(s, i, w_size(s, c, i));
+                i = last_word_i(str, i);
+                array[words] = ft_strsub(str, i, w_size(str, i));
                 i--;
                 words--;
         }

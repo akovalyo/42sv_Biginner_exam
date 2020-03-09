@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <string.h>
+
 int		ft_reject(char c, const char *reject)
 {
 	while (*reject)
