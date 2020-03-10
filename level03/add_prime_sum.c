@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/09 16:43:51 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/03/09 16:52:57 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/03/09 19:48:48 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/03/09 20:04:03 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,12 +77,10 @@ int		main(int argc, char **argv)
 {
 	int nbr;
 
-	if (argc == 2)
-	{
-		nbr = ft_atoi(argv[1]);
-		if (nbr > 1)
+	if (argc == 2 && (nbr = ft_atoi(argv[1])) >= 2)
 			ft_putnbr(sum_prime(nbr));
-	}
-	write(1, "0\n", 2);
+	else
+		write(1, "0", 1);
+	write(1, "\n", 1);
 	return (0);
 }
