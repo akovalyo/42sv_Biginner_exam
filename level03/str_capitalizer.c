@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   str_capitalizer.c                                  :+:      :+:    :+:   */
+/*   str_capitaizer.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
+/*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/24 08:30:42 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/03/02 14:27:48 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/03/09 15:50:59 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/03/09 16:39:51 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,10 @@ int		letter(char c)
 
 int		print_word(char *word, int i, int f)
 {
-	if (letter(word[i]) == 1 && f == 0)
+	if (letter(word[i]) == 1 && f == 1)
 		ft_putchar(word[i] - 32);
+	else if (letter(word[i]) == 2 && f == 0)
+		ft_putchar(word[i] + 32);
 	else
 		ft_putchar(word[i]);
 	i++;
@@ -55,8 +57,10 @@ void	str_capitalizer(char *str)
 	{
 		if (letter(str[i]) == 0)
 		{
-			if (str[i] != ' ')
+			if (str[i] == ' ')
 				flag = 1;
+			else
+				flag = 0;
 			ft_putchar(str[i]);
 			i++;
 		}

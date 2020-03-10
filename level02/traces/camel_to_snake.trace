@@ -1,0 +1,56 @@
+= camel_to_snake ===============================================================
+$> gcc -Wextra -Wall -Werror camel_to_snake.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./h4lcmjezqbi5kmhbwo3ftgkg ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./bgpeam1cadur2c40vz7s1lap sfdalbzhevnmkcqiyYjsnvfpuwgZolSidtzkyhVdabcguisewnqfmObyNjmsztdPecozvhTzmgwyiosnblqpQdwahinouljbxvyzfZluhamxncdikrp
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./56vv666v8axl0ru8wtbr1gz0 swxyzqbeolEmfzpisubokahvgtDknPrboetxfmwcldvyahDpbxkjcmuaUidqanpksxcMieqxbIrxkgbvouhymsUrcshinjbkeazqpLfywgjRvosjxmfwkqhnapCaetdwfpoizghrqQfrjynlkagowdeDef
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./5zq2sbi9ccjvw740bfjg5rps bynxuseGxavhuibfsldnGvpurmnzJcsrbqptidmynkBowptgnkyhjvlrfcXvtojaSpkRiqpgyedjnlcswUfayqngdkSpkvrhwcnuyilgozKgyvumcqoxwitpf
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./0g2vceax82iovxxnb71d264t fkibyOdeawZjflhcaiekmvgxJrhoiwasmvdYmaotvezdjrqspklnQofmtlNidyqtrjashogvwGfmbcaedjorpzqtnkDewvmkrzulaqsfQinleaguzSzwcdbaxgjvfGfkzo
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./07z8rpux8977b36kee2t42vh bpiEwbzxQcjfRnmvplwebfhdcsuxaVoimrclqfhtxyYhnvxwtjucSqkfathcdevolDhvcaiejxlJuwaqmyhepfcsigvzMcvtgzanjbwyqxrEjgdlUclqehfxzjmbpnaZdphaqjnoylimvksYprkusRyznbpkiqsaocDhuqiZadmhsgxnfybluvBhsoigmtydnzakpj
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./r2jgv0ie6q5brsyavztve6b9 eadmQavkstNictsgvreYhfpzngrbqtHgjwdiszmQujgaowvpftybxlnHzgxairfcsldkqZiqvdomsbftlyPvntsxrmuioqgIauyhvqptfmsnckjlLuohfjqecxabtp
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./gfwo2j5z68l0ut8gh0cbhb4s htuxwyzsLefixbwzspahEsizmayrxnGsikbtjmxYqkxmtgdzeuavwsjnZjrfhcwpkExabrjzhkiVskqpjenfxyDesuzjmrktlvgVendmwsibkgcyruXwvdmreiXjglchpqeidusfazkXbywrztljhpEvyrxmbpgkfwuLfmrtjwdvxpzbyuke
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./c78ffs5qr0zjv4ol8wedbqk5 eszkvbwumaljKbeMuvtpgloyienzLazVfoenuslwiybTrzgmcjobqOrtyglpbjDpnitcuokgyehLtbiovnuhyxgQtabjuklmcYhulewzgnjrLfdyzChvxtjdznifskerlAkwcsefjvglxEznitkvdjAkyvcqgnurhoitbGevtfsunyLghdwrcqonzbv
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./y8z254lx0euc0e65xekzgd85 ygbezihwoqpYxwsvjloRsilxvgudaekwcjhyGxibjwylphkzutfCyisoaulknjtqxwdGsjhklzmnwpuxrCsoahftjxuyrpkCjpxlsnOdrmtvcnWujsnpahkvzmtglreNfcoraexvtjmlbyNagbpvtwcokx
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

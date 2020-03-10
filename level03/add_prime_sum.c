@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   add_prime_sum.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akovalyo <al.kovalyov@gmail.com>           +#+  +:+       +#+        */
+/*   By: akovalyo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/12 19:51:58 by akovalyo          #+#    #+#             */
-/*   Updated: 2020/03/02 12:47:57 by akovalyo         ###   ########.fr       */
+/*   Created: 2020/03/09 16:43:51 by akovalyo          #+#    #+#             */
+/*   Updated: 2020/03/09 16:52:57 by akovalyo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,6 @@ int		main(int argc, char **argv)
 		if (nbr > 1)
 			ft_putnbr(sum_prime(nbr));
 	}
-	write(1, "\n", 1);
+	write(1, "0\n", 2);
 	return (0);
 }
